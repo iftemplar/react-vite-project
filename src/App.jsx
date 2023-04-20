@@ -1,11 +1,10 @@
 import './App.css'
-import Post from "./components/Post.jsx";
+import PostsList from "./components/Posts-list.jsx";
 
 function App() {
   return(
     <main>
-      <Post name="Mykola" text="React Course" />
-      <Post name="Rostyslav" text="Write More" />
+        <PostsList />
     </main>
   )}
 
