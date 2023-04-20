@@ -2,7 +2,12 @@ import './App.css'
 import Post from "./components/Post.jsx";
 
 function App() {
-  return <Post />
-}
+  return(
+    <main>
+      <Post />
+      <Post />
+      <Post />
+    </main>
+  )}
 
 export default App
