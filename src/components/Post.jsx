@@ -1,10 +1,8 @@
-const names = ['Mykola', 'Rostyslav'];
-function Post() {
-    const theName = Math.random() > 0.5 ? names[0] : names[1];
+function Post(props) {
     return(
         <div>
-            <p>{theName}</p>
-            <p>React Course</p>
+            <p>{props.name}</p>
+            <p>{props.text}</p>
         </div>
     )
 }
