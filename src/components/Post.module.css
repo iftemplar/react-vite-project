@@ -1,0 +1,12 @@
+.post {
+    color: white;
+    background: #535bf2;
+    padding: 5px 50px;
+    margin-bottom: 20px;
+}
+.name {
+    font-size: 24px;
+}
+.text {
+    font-style: italic;
+}
