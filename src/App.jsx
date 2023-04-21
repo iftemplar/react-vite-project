@@ -1,11 +1,12 @@
-import './App.css'
-import PostsList from "./components/Posts-list.jsx";
+import './App.css';
+import PostsList from './components/Posts-list.jsx';
 
 function App() {
-  return(
+  return (
     <main>
-        <PostsList />
+      <PostsList />
     </main>
-  )}
+  );
+}
 
-export default App
+export default App;
